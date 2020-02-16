@@ -7,10 +7,7 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    Здесь я несу свой бред <Styled.a href="http://example.com/">Миша Скопенко</Styled.a>
-    {` `}
-    goes.
-    <br />
-   в больших колличествах
+    Блог <Styled.a href="https://twitter.com/skopenkoM">Миши Скопенко</Styled.a>
+   
   </Fragment>
 )
