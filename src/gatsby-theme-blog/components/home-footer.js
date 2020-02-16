@@ -1,25 +1,16 @@
 import React from "react"
-import styled from "styled-components"
+import '../../gatsby-theme-awesome-css/styles/home-footer.css'
 
 
-const Footer = styled.div`
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
-`
-const LinkOtherSite = styled.a`
-color: #66E0FF;
-margin-right: 20px;
 
-`
 export default () => {
 
 return (
-    <Footer>
-<LinkOtherSite href='https://twitter.com/skopenkoM'>twitter</LinkOtherSite>
-<LinkOtherSite href='https://github/lemonspb'>github</LinkOtherSite>
-</Footer>
+    <footer>
+<a href='https://twitter.com/skopenkoM'
+    target='_blank' >twitter</a>
+<a href='https://github/lemonspb' target='_blank'>github</a>
+</footer>
 )
 
 }
