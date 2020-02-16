@@ -4,9 +4,7 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
-    {
-    resolve: `gatsby-plugin-styled-components`,
-    }
+  
   ],
   // Customize your site metadata:
   siteMetadata: {
